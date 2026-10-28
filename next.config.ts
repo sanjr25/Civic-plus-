@@ -1,0 +1,1 @@
+civicpulse/next.config.ts
