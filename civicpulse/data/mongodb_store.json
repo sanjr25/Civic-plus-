@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "_id": "usr_m_101",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@civicpulse.org",
+      "role": "citizen",
+      "neighborhood": "Downtown District 7",
+      "phone": "(206) 555-0182",
+      "createdAt": "2026-09-15T10:00:00Z",
+      "updatedAt": "2026-09-15T10:00:00Z"
+    },
+    {
+      "_id": "usr_m_102",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@city.civicpulse.gov",
+      "role": "staff",
+      "neighborhood": "Public Works Division",
+      "phone": "(206) 555-0914",
+      "createdAt": "2025-04-10T08:30:00Z",
+      "updatedAt": "2025-04-10T08:30:00Z"
+    }
+  ],
+  "chat_logs": [
+    {
+      "_id": "log_m_1793096037534",
+      "sessionId": "sess-1793096032632",
+      "userEmail": "elena.rostova@civicpulse.org",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Hello! I am **CivicPulse AI**, your municipal assistant. I can answer questions from our official city FAQs, explain error codes (like 400, 401, 403, 404, 422, 429, 500, 503), or file an official support ticket for you. How can I help today?",
+          "timestamp": "2026-10-27T10:13:52.632Z"
+        },
+        {
+          "role": "user",
+          "content": "What does Error 403 mean in CivicPulse?",
+          "timestamp": "2026-10-27T10:13:55.992Z"
+        },
+        {
+          "role": "assistant",
+          "content": "### Error 403: Forbidden (Access Denied — Role Authorization Failure)\n\nYour authenticated identity does not have sufficient role privileges to perform this municipal operation.\n\n**Common Cause:** A citizen user attempted to access the Staff Triage Operations desk, assign field crews, or modify official resolution audit records.\n\n**Recommended Action:** Official case management is restricted to authorized municipal staff. Switch to Staff Inspector persona in Settings to test this action.\n\n*Would you like me to open a support ticket for this error?* Just say \"File a ticket\".",
+          "timestamp": "2026-10-27T10:13:56.044Z"
+        },
+        {
+          "role": "user",
+          "content": "Can you please create a support ticket for my street?",
+          "timestamp": "2026-10-27T10:13:57.534Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I have created a high-priority Municipal Support Ticket for you: **#tkt-QJ31CU**.\n\nOur city dispatch supervisor desk has been notified and will follow up with you at **elena.rostova@civicpulse.org**. You can track this case anytime in your citizen portal.",
+          "timestamp": "2026-10-27T10:13:57.534Z"
+        }
+      ],
+      "createdTicketId": "tkt-QJ31CU",
+      "timestamp": "2026-10-27T10:13:57.534Z"
+    },
+    {
+      "_id": "log_m_1793096036039",
+      "sessionId": "sess-1793096032632",
+      "userEmail": "elena.rostova@civicpulse.org",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Hello! I am **CivicPulse AI**, your municipal assistant. I can answer questions from our official city FAQs, explain error codes (like 400, 401, 403, 404, 422, 429, 500, 503), or file an official support ticket for you. How can I help today?",
+          "timestamp": "2026-10-27T10:13:52.632Z"
+        },
+        {
+          "role": "user",
+          "content": "What does Error 403 mean in CivicPulse?",
+          "timestamp": "2026-10-27T10:13:56.039Z"
+        },
+        {
+          "role": "assistant",
+          "content": "### Error 403: Forbidden (Access Denied — Role Authorization Failure)\n\nYour authenticated identity does not have sufficient role privileges to perform this municipal operation.\n\n**Common Cause:** A citizen user attempted to access the Staff Triage Operations desk, assign field crews, or modify official resolution audit records.\n\n**Recommended Action:** Official case management is restricted to authorized municipal staff. Switch to Staff Inspector persona in Settings to test this action.\n\n*Would you like me to open a support ticket for this error?* Just say \"File a ticket\".",
+          "timestamp": "2026-10-27T10:13:56.039Z"
+        }
+      ],
+      "timestamp": "2026-10-27T10:13:56.039Z"
+    },
+    {
+      "_id": "log_m_1793096018650",
+      "sessionId": "sess-1793096016062",
+      "userEmail": "citizen@civicpulse.org",
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Hello! I am **CivicPulse AI**, your municipal assistant. I can answer questions from our official city FAQs, explain error codes (like 400, 401, 403, 404, 422, 429, 500, 503), or file an official support ticket for you. How can I help today?",
+          "timestamp": "2026-10-27T10:13:36.062Z"
+        },
+        {
+          "role": "user",
+          "content": "I encountered a 404 Page Not Found error at an invalid address. Can you help me locate the page, explain Error 404, or file a support ticket?",
+          "timestamp": "2026-10-27T10:13:38.650Z"
+        },
+        {
+          "role": "assistant",
+          "content": "I have created a high-priority Municipal Support Ticket for you: **#tkt-QJ2MSA**.\n\nOur city dispatch supervisor desk has been notified and will follow up with you at **citizen@civicpulse.org**. You can track this case anytime in your citizen portal.",
+          "timestamp": "2026-10-27T10:13:38.650Z"
+        }
+      ],
+      "createdTicketId": "tkt-QJ2MSA",
+      "timestamp": "2026-10-27T10:13:38.650Z"
+    },
+    {
+      "_id": "log_m_001",
+      "sessionId": "sess-init-01",
+      "userEmail": "elena.rostova@civicpulse.org",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What does error code 403 mean on CivicPulse?",
+          "timestamp": "2026-10-26T10:15:00Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Error 403 represents \"Forbidden\". In CivicPulse, this happens when a citizen user attempts to access staff-restricted triage desks or alter official audit logs. Only authorized municipal staff can perform triage dispatches.",
+          "timestamp": "2026-10-26T10:15:05Z"
+        }
+      ],
+      "timestamp": "2026-10-26T10:15:05Z"
+    }
+  ],
+  "feedback": [
+    {
+      "_id": "fb_m_001",
+      "userEmail": "elena.rostova@civicpulse.org",
+      "rating": 5,
+      "category": "ai_assistant",
+      "comment": "Assistant gave instant explanation of the municipal SLA turnaround!",
+      "pageUrl": "/dashboard",
+      "timestamp": "2026-10-26T10:16:00Z"
+    }
+  ]
+}
